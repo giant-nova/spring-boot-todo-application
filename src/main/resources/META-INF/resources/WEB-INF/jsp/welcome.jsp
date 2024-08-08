@@ -1,10 +1,5 @@
-<html>
-    <head>
-        <title>
-            Welcome page
-        </title>
-    </head>
-    <body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
         <div class"container">
             <div><h1>Welcome! ${name}</h1></div>
             <div> Your credentials are :- </div>
@@ -12,5 +7,4 @@
             <div> Password: ${password}</div>
             <div><a href= "list-todos">Manage</a> your Todos</div>
         </div>
-    </body>
-</html>
+<%@ include file="common/footer.jspf" %>
